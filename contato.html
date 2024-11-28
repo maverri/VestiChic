@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vesti Chic | Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="vestichic.jpg"  width="170">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="sobre-nos.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Entre em Contato</h1>
+            <p>Gostaríamos de ouvir você! Preencha o formulário abaixo ou entre em contato pelos nossos canais oficiais.</p>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p><strong>Email:</strong> contato@vestichic.com.br</p>
+            <p><strong>Telefone:</strong> (11) 98765-4321</p>
+            <p><strong>Endereço:</strong> Rua Marechal, Shopping Brangança, Loja 230 - São Paulo, Cidade Jardim, SP</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Vesti Chic. Moda com estilo e elegância.</p>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
